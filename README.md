@@ -1,4 +1,4 @@
-This is a small fun project I built with my kid to keep chipmunks out of a strawberry garden.
+This is a small and fun project I built with my kid to keep chipmunks out of a strawberry garden.
 
 I used what I have available at the moment if you are ready to invest a little bit more time, effort and money you can definitely make it more exciting.
 It would defintely be great to make owl move its wings.
