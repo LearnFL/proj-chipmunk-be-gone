@@ -1,11 +1,11 @@
 #include <Servo.h>
 
-#define LEYE 8
-#define REYE 7
-#define PSERVO 6
+#define LEYE 8    // Left eye LED
+#define REYE 7    // Right eye LED 
+#define PSERVO 6  // Cuts power to servo to save power
 #define SERVO 10 
-#define PIR 0
-#define OWL 1
+#define PIR 0     // Motion sensor
+#define OWL 1     // Audio
 
 Servo Myservo;
 int pos = 0;
@@ -17,7 +17,6 @@ const int period = 200;
 void chipmonkBeGone();
 void blink();
 void move();
-
 
 void setup() {
   pinMode(PIR, INPUT);
@@ -32,8 +31,8 @@ void setup() {
   Myservo.attach(SERVO);
 }
 
-// the loop function runs over and over again forever
 void loop() {
+  // Used nested delays to decrease false alarms
   if (digitalRead(PIR) == 1) {
     delay(300);
     if (digitalRead(PIR) == 1){
@@ -43,7 +42,6 @@ void loop() {
       digitalWrite(OWL, 1);
     }
   } 
-  
 }
 
 void chipmonkBeGone() {
@@ -51,6 +49,7 @@ void chipmonkBeGone() {
   blink();
 }
 
+// Controls LEDs in owl's eyes
 void blink() {
   for (int i=0; i<10; i++) {
     digitalWrite(REYE, 1);
@@ -62,6 +61,7 @@ void blink() {
   }
 }
 
+// Activates servos
 void move() { 
   digitalWrite(PSERVO, 1);
   for (pos = 0; pos <= 80; pos+=2) { 
