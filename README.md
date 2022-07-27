@@ -7,7 +7,7 @@ With that being said I 3d printed a basic owl that I found on thingsgivers.com a
 
 I used Adafruit Audio FX and a small 8 Om speaker to play owl sound that I found on internet. I built an audio amplifier for the speaker, if you don't feel like soldering you can just buy one.
 
-I used a mosfet to run on and off servo to save the power.
+I used a mosfet to turn on and off servo to save the power.
 
 When PIR sensor senses motion the owl jumps, its eyes flash and it plays owl sounds.
 
