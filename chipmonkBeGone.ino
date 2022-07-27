@@ -1,3 +1,6 @@
+// DESIGNED AND BUILT BY DENNIS ROTNOV
+// Feel free to use it and change, but please keep authorship attribution
+
 #include <Servo.h>
 
 #define LEYE 8    // Left eye LED
