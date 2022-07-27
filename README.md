@@ -1,6 +1,6 @@
 This is a small and fun project I built with my kid to keep chipmunks out of a strawberry garden.
 
-I used what I had available at the moment if you are ready to invest a little bit more time, effort and money you can definitely make it more exciting.
+I used what I had available at that time, if you are ready to invest a little bit more time, effort and money you can definitely make it more exciting.
 It would defintely be great to make owl move its wings.
 
 With that being said I 3d printed a basic owl that I found on thingsgivers.com and I had a linear actuator that I found on thingsgivers.com and printed a while back.
