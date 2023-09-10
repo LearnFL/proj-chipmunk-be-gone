@@ -15,6 +15,8 @@ I used Atmega-328P controller off the board so my kid could practice soldering. 
 ### Operation
 When PIR sensor senses motion the owl jumps, its eyes flash and it plays owl sounds.
 
+### Video
+[Watch video on YouTube](https://youtu.be/o-kEXzd0pFU)
 ### Screenshots
 ![554BE07A-E727-43D5-9C7E-CC8A01F5CD5E](https://user-images.githubusercontent.com/86169204/181380118-35639401-5eb5-4b91-98bb-ec0be8588dce.JPEG)
 
